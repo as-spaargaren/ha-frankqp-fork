@@ -1,4 +1,4 @@
-# Frank Energie Kwartierprijzen voor Home Assistant
+# Frank Energie Kwartierprijzen voor Home Assistant - Fork by as-spaargaren
 
 🇳🇱 Nederlands | [🇬🇧 English](README_EN.md)
 
@@ -24,6 +24,15 @@ De integratie levert de volledige kwartierprijzen voor **vandaag** en, zodra gep
 De integratie is opgenomen in **HACS Default** en dus rechtstreeks doorzoekbaar en installeerbaar via HACS, zonder een aangepaste repository toe te voegen.
 
 > Deze integratie leest de openbare Frank Energie GraphQL API uit en levert de prijzen van vandaag en morgen, de huidige prijs en het goedkoopste en duurste prijsvenster van elke dag. De actuele kwartierprijs wordt op iedere echte kwartiergrens (`:00`/`:15`/`:30`/`:45`) opnieuw bepaald; de dagreeksen zelf worden lokaal gecachet en alleen opgehaald wanneer ze ontbreken. De volledige prijsreeksen zijn beschikbaar als sensorattributen voor je eigen EMS-logica, batterijsturing en dynamische energietarieven.
+
+------------------------------
+> 2026-10-13 Forked by as-spaargaren
+Entso-e heeft weer eens geen prijzen voor de volgende dag. (2026-10-14 dus) en ligt er de laatste tijd met regelmatig uit (zo ook 2026-10-10)
+De integratie van de originele ontwikkelaar haalt de prijzen op van een andere locatie welke wél prijzen heeft. Deze prijzen en berekeningen wijken echter af van wat ik op de energierekening (marktprijs+) van Frank Energie te zien krijg.
+Dus bij deze een poging om het aan te passen naar mijn eigen wensen.
+Niet ten nadele van de originele ontwikkelaar, ik ben vooral Entso-e beu en zoek met spoed iets vervangends.
+------------------------------
+
 
 ---
 
